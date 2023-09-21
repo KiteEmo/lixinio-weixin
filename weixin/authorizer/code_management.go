@@ -82,12 +82,13 @@ type UGCDeclare struct {
 	AuditDesc      string `json:"audit_desc,omitempty"`
 }
 type AuditParams struct {
-	ItemList      []AuditParamsItem `json:"item_list,omitempty"`
-	PreviewInfo   PreviewInfo       `json:"preview_info,omitempty"`
-	VersionDesc   string            `json:"version_desc,omitempty"`
-	FeedbackInfo  string            `json:"feedback_info,omitempty"`
-	FeedbackStuff string            `json:"feedback_stuff,omitempty"`
-	UGCDecalre    UGCDeclare        `json:"ugc_declare,omitempty"`
+	ItemList         []AuditParamsItem `json:"item_list,omitempty"`
+	PreviewInfo      PreviewInfo       `json:"preview_info,omitempty"`
+	VersionDesc      string            `json:"version_desc,omitempty"`
+	FeedbackInfo     string            `json:"feedback_info,omitempty"`
+	FeedbackStuff    string            `json:"feedback_stuff,omitempty"`
+	PrivacyApiNotUse string            `json:"privacy_api_not_use,omitempty"`
+	UGCDecalre       UGCDeclare        `json:"ugc_declare,omitempty"`
 }
 
 /*
